@@ -1,4 +1,4 @@
-document.getElementById('submitBtn').addEventListener('keypress', function(){
+document.getElementById('submitBtn').addEventListener('click', function(){
    const nameFild = document.getElementById('nameFild');
    const nameValue = nameFild.value ;
    nameFild.value = '';
